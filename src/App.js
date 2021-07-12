@@ -13,16 +13,8 @@ import Contact from './pages/Contact'
 import Portfolio from './pages/Portfolio'
 
 // component imports
-import MyAppbar from './components/MyAppbar'
-
-// my theme
-// const theme = createTheme({
-//   palette: {
-//     primary: {
-//       main: 'fefefe'
-//     }
-//   }
-// })
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 // dark theme
 const theme = createTheme({
@@ -40,9 +32,8 @@ const App = () => {
       <CssBaseline />
       <Router>
         <div>
-          <MyAppbar
+          <Header
             Link={Link}
-            theme={theme}
           />
           <Switch>
             <Route exact path='/'>
@@ -58,6 +49,7 @@ const App = () => {
               <Contact />
             </Route>
           </Switch>
+          <Footer />
         </div>
       </Router>
     </ThemeProvider>

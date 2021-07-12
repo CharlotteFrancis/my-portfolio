@@ -11,7 +11,11 @@ const useStyles = makeStyles({
   },
 
   title: {
-    marginTop: 300
+    marginTop: '20%'
+  },
+
+  bottomText: {
+    marginBottom: '25%'
   }
 })
 
@@ -32,6 +36,7 @@ const Landing = () => {
       <Typography
         color='textSecondary'
         align='center'
+        className={classes.bottomText}
       >
         Web Design | HTML | CSS | JavaScript | C++ | Python | Java | Node | Passport | Sequelize | React | SQL
       </Typography>

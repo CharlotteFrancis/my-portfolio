@@ -1,17 +1,14 @@
-import React from 'react'
-import Typography from '@material-ui/core/Typography'
-import Button from '@material-ui/core/Button'
-import Container from '@material-ui/core/Container'
-import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight'
+// import React from 'react'
 import { makeStyles } from '@material-ui/core'
+import Typography from '@material-ui/core/Typography'
+import Container from '@material-ui/core/Container'
+import Paper from '@material-ui/core/Paper'
+import Image from '../../assets/c9c5ba.png'
+// import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight'
 
 const useStyles = makeStyles({
-  btn: {
-
-  },
-
-  title: {
-    marginTop: 20
+  aboutPaper: {
+    backgroundImage: `url(${Image})`
   }
 })
 
@@ -20,33 +17,15 @@ const About = () => {
 
   return (
     <Container>
-      <Typography
-        className={classes.title}
-        variant='h1'
-        color='textPrimary'
-        align='center'
-      >
-        Charlotte Wong
-        <hr />
-      </Typography>
-      <Typography
-        color='textSecondary'
-        align='center'
-      >
-        Web Design | HTML | CSS | JavaScript | C++ | Python | Java | Node | Passport | Sequelize | React | SQL
-      </Typography>
-
-      <Button
-        className={classes.btn}
-        variant='contained'
-        color='primary'
-        type='submit'
-        onClick={() => console.log('you clicked me!')}
-        endIcon={<KeyboardArrowRightIcon />}
-      >
-        Submit
-      </Button>
-
+      <Paper component='div' elevation={0} style={{ backgroundColor: '#252525', height: '80vh', marginTop: '1vh' }}>
+        <Typography variant='h2'>
+          About Me:
+        </Typography>
+        <br />
+        <Typography>
+          Food enjoyer
+        </Typography>
+      </Paper>
     </Container>
   )
 }
