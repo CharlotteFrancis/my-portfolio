@@ -1,10 +1,10 @@
-import ComicCol from './ComicCol.png'
+import ComicCol from './ComiCol.png'
 import CurrencyConverter from './CurrencyConverter.png'
 import TechBlog from './TechBlog.png'
 
 const projects = [
   {
-    Title: 'ComiCol',
+    Title: 'ComicCol',
     Body: 'A website for showcasing your comics as well as discussing them with other users.',
     repo: 'https://github.com/CharlotteFrancis/ComicCol',
     link: 'https://comiccol.herokuapp.com/',

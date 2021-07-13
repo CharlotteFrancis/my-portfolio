@@ -12,6 +12,7 @@ const Portfolio = () => {
       </Typography>
       <br /><br />
       <Grid container spacing={3}>
+
         {
           projects.map((element, i) => (
             <Grid item xs={12} sm={6} md={4} key={i}>
@@ -21,42 +22,12 @@ const Portfolio = () => {
                 width={element.width}
                 repo={element.repo}
                 link={element.link}
-                Image={Image}
+                Image={element.Image}
               />
             </Grid>
           ))
         }
 
-        <Grid item xs={12} sm={6} md={4}>
-          <MyCard
-            Title='Yoooooo'
-            Body='Card Test'
-            width='900'
-            repo='www.google.com'
-            link='google.com'
-            Image={Image}
-          />
-        </Grid>
-        <Grid item xs={12} sm={6} md={4}>
-          <MyCard
-              Title='Yoooooo'
-              Body='Card Test'
-              width='900'
-              repo='https://google.com'
-              link='google.com'
-              Image={Image}
-            />
-          </Grid>
-        <Grid item xs={12} sm={6} md={4}>
-          <MyCard
-            Title='Yoooooo'
-            Body='Card Test'
-            width='900'
-            repo='google.com'
-            link='google.com'
-            Image={Image}
-          />
-        </Grid>
       </Grid>
     </Container>
   )
