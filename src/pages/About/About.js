@@ -10,7 +10,8 @@ import CardMedia from '@material-ui/core/CardMedia'
 const useStyles = makeStyles({
   aboutPaper: {
     backgroundImage: `url(${Image})`,
-    padding: '20px'
+    padding: '20px',
+    backgroundColor: '#2f2f2f'
   },
   Media: {
     height: '350px',
@@ -28,12 +29,13 @@ const About = () => {
 
   return (
     <Container>
-      <Paper component='div' elevation={0} style={{ backgroundColor: '#252525', marginTop: '1vh', padding: '30px'}}>
+      <Paper component='div' elevation={0} style={{ backgroundColor: '#2f2f2f', marginTop: '1vh', padding: '30px'}}>
         <Typography
           variant='h4'
           className={classes.aboutText}
+          align='center'
         >
-          About Charlotte:
+          About Charlotte
         </Typography>
         <hr
           width='60%'
@@ -47,6 +49,7 @@ const About = () => {
             title='me'
             image={Image}
           />
+          <br />
           <hr
             width='60%'
           />

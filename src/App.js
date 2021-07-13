@@ -31,6 +31,14 @@ const theme = createTheme({
     text: {
       secondary: teal[200]
     }
+  },
+  typography: {
+    h4: {
+      fontWeight: 200
+    },
+    h6: {
+      fontWeight: 100
+    }
   }
 })
 

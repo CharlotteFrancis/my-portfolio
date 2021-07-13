@@ -1,9 +1,9 @@
 import MyAppbar from '../MyAppbar'
-import { makeStyles } from '@material-ui/core'
+import { Container, makeStyles, Typography } from '@material-ui/core'
 
 const useStyles = makeStyles((theme) => ({
   paddingDiv: {
-    marginRight: theme.spacing(2),
+    marginTop: theme.spacing(1),
     height: 100,
     backgroundColor: 'primary'
   }
