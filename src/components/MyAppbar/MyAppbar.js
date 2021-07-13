@@ -4,6 +4,7 @@ import AppBar from '@material-ui/core/AppBar'
 import ToolBar from '@material-ui/core/ToolBar'
 import Button from '@material-ui/core/Button'
 import { Link } from 'react-router-dom'
+import PDF from '../../assets/CharlotteWong.pdf'
 
 const useStyles = makeStyles((theme) => ({
   menuButton: {
@@ -51,7 +52,7 @@ const MyAppbar = props => {
           Portfolio
         </Button>
         <Button
-          href='/resume'
+          href={PDF}
           className={classes.menuButton}
         >
           Resume

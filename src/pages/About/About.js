@@ -65,7 +65,7 @@ const About = () => {
           <br /><br />
         </Box>
       </Paper>
-      <br />
+      <br /><br /><br /><br />
     </Container>
   )
 }
