@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Typography from '@material-ui/core/Typography'
 import Container from '@material-ui/core/Container'
 import { makeStyles } from '@material-ui/core'
+import ParticlesBg from 'particles-bg'
+
 
 const useStyles = makeStyles({
   btn: {
@@ -22,6 +24,7 @@ const Landing = () => {
 
   return (
     <Container>
+      <ParticlesBg type='lines' bg={true} />
       <Typography
         className={classes.title}
         variant='h1'
@@ -36,7 +39,7 @@ const Landing = () => {
         align='center'
         className={classes.bottomText}
       >
-        Web Design | HTML | CSS | JavaScript | C++ | Python | Java | Node | Passport | Sequelize | React | SQL
+        Web Design | HTML | CSS | JavaScript | C++ | Python | Java | Node | Passport | Sequelize | React | SQL | NoSQL
       </Typography>
     </Container>
   )
