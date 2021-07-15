@@ -57,7 +57,7 @@ const App = () => {
             <Route exact path='/'>
               <Landing />
             </Route>
-            <Route exact path='/about'>
+            <Route exact path='/my-portfolio/about'>
               <About />
             </Route>
             <Route path='/portfolio'>
