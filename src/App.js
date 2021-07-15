@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 // import { ThemeProvider } from '@material-ui/core'
 import { createTheme, ThemeProvider } from '@material-ui/core/styles'
 import CssBaseline from '@material-ui/core/CssBaseline'
-import purple from '@material-ui/core/colors/purple'
 import teal from '@material-ui/core/colors/teal'
 
 // page imports
