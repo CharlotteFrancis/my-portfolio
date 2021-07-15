@@ -52,6 +52,9 @@ const App = () => {
             Link={Link}
           />
           <Switch>
+            <Route exact path='/my-portfolio'>
+              <Landing />
+            </Route>
             <Route exact path='/'>
               <Landing />
             </Route>
