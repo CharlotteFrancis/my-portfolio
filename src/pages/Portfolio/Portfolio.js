@@ -6,10 +6,13 @@ import projects from '../../assets/projects.js'
 
 const Portfolio = () => {
   return (
-    <Container>
+    <Container id='portfolio'>
       <Typography variant='h4' align='center'>
         Stuff I've Made
       </Typography>
+      <hr
+          width='60%'
+        />
       <br /><br />
       <Grid container spacing={3}>
 

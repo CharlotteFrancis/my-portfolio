@@ -53,9 +53,19 @@ const App = () => {
           <Switch>
             <Route exact path='/my-portfolio'>
               <Landing />
+              <About />
+              <Portfolio />
+              <br /><br /><br /><br />
+              <Contact />
+              <br /><br /><br /><br />
             </Route>
             <Route exact path='/'>
               <Landing />
+              <About />
+              <Portfolio />
+              <br /><br /><br /><br />
+              <Contact />
+              <br /><br /><br /><br />
             </Route>
             <Route exact path='/my-portfolio/about'>
               <About />

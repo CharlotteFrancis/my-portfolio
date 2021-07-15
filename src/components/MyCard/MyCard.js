@@ -22,7 +22,7 @@ const MyCard = props => {
 
   return (
     <Card className={classes.root} elevation={0} style={{ maxWidth: props.width }}>
-      <CardActionArea>
+      <CardActionArea href={props.link}>
         <CardMedia
           component='img'
           alt='Card Image'

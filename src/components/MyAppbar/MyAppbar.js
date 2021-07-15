@@ -26,27 +26,30 @@ const MyAppbar = props => {
       elevation={0}
     >
       <ToolBar>
-        <Link
-          to='/'
+        <div
           className={`${classes.menuButton} ${classes.leftElement} ${classes.links}`}
           edge='end'
           color='primary'
           textDecoration='none'
         >
-          <Typography
-            color='textSecondary'
+          <Button
+            href='#landing'
           >
-            CW
-          </Typography>
-        </Link>
+            <Typography
+              color='textSecondary'
+            >
+              CW
+            </Typography>
+          </Button>
+        </div>
         <Button
-          href='/about'
+          href='#about'
           className={classes.menuButton}
         >
           About
         </Button>
         <Button
-          href='/portfolio'
+          href='#portfolio'
           className={classes.menuButton}
         >
           Portfolio
@@ -58,7 +61,7 @@ const MyAppbar = props => {
           Resume
         </Button>
         <Button
-          href='/contact'
+          href='#contact'
           className={classes.menuButton}
         >
           Contact

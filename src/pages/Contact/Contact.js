@@ -46,12 +46,15 @@ const Contact = () => {
   }
 
   return (
-    <Container maxWidth='md'>
+    <Container maxWidth='md' id='contact'>
       <Grid container>
         <Grid item xs={12}>
           <Typography variant='h4' align='center'>
             Contact Me
           </Typography>
+          <hr
+            width='60%'
+          />
           <br /><br />
         </Grid>
         <Grid item xs={12} sm={7}>

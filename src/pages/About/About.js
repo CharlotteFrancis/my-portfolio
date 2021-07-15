@@ -28,7 +28,8 @@ const About = () => {
   const classes = useStyles()
 
   return (
-    <Container>
+    <Container id='about'>
+      <br /><br />
       <Paper component='div' elevation={0} style={{ backgroundColor: '#2f2f2f', marginTop: '1vh', padding: '30px'}}>
         <Typography
           variant='h4'
@@ -68,7 +69,6 @@ const About = () => {
           <br /><br />
         </Box>
       </Paper>
-      <br /><br /><br /><br />
     </Container>
   )
 }
