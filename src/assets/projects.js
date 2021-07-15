@@ -14,7 +14,7 @@ const projects = [
   {
     Title: 'Currency Converter',
     Body: 'A website for seeing and calculating transaction rates between different types of crypto and fiat currencies.',
-    repo: 'https://github.com/CharlotteFrancis/CurrencyConverter/blob',
+    repo: 'https://github.com/CharlotteFrancis/CurrencyConverter',
     link: 'https://charlottefrancis.github.io/CurrencyConverter/',
     width: 900,
     Image: CurrencyConverter
