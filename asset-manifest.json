@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.32b48723.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.61f12696.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.61f12696.chunk.js.map",
-    "runtime-main.js": "/my-portfolio/static/js/runtime-main.ad62f608.js",
-    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.ad62f608.js.map",
-    "static/js/2.08d7f0fe.chunk.js": "/my-portfolio/static/js/2.08d7f0fe.chunk.js",
-    "static/js/2.08d7f0fe.chunk.js.map": "/my-portfolio/static/js/2.08d7f0fe.chunk.js.map",
-    "static/js/3.f714976a.chunk.js": "/my-portfolio/static/js/3.f714976a.chunk.js",
-    "static/js/3.f714976a.chunk.js.map": "/my-portfolio/static/js/3.f714976a.chunk.js.map",
+    "main.js": "/my-portfolio/static/js/main.1c05c5c4.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.1c05c5c4.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.e7802f44.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.e7802f44.js.map",
+    "static/js/2.a178f0ae.chunk.js": "/my-portfolio/static/js/2.a178f0ae.chunk.js",
+    "static/js/2.a178f0ae.chunk.js.map": "/my-portfolio/static/js/2.a178f0ae.chunk.js.map",
+    "static/js/3.e4f11b69.chunk.js": "/my-portfolio/static/js/3.e4f11b69.chunk.js",
+    "static/js/3.e4f11b69.chunk.js.map": "/my-portfolio/static/js/3.e4f11b69.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
     "static/css/main.32b48723.chunk.css.map": "/my-portfolio/static/css/main.32b48723.chunk.css.map",
-    "static/js/2.08d7f0fe.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.08d7f0fe.chunk.js.LICENSE.txt",
+    "static/js/2.a178f0ae.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.a178f0ae.chunk.js.LICENSE.txt",
     "static/media/CharlotteWong.0f007fff.pdf": "/my-portfolio/static/media/CharlotteWong.0f007fff.pdf",
     "static/media/ComiCol.2ba6ce67.png": "/my-portfolio/static/media/ComiCol.2ba6ce67.png",
     "static/media/CurrencyConverter.cd3d302f.png": "/my-portfolio/static/media/CurrencyConverter.cd3d302f.png",
@@ -20,9 +20,9 @@
     "static/media/contact.06e5c1f8.jpg": "/my-portfolio/static/media/contact.06e5c1f8.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ad62f608.js",
-    "static/js/2.08d7f0fe.chunk.js",
+    "static/js/runtime-main.e7802f44.js",
+    "static/js/2.a178f0ae.chunk.js",
     "static/css/main.32b48723.chunk.css",
-    "static/js/main.61f12696.chunk.js"
+    "static/js/main.1c05c5c4.chunk.js"
   ]
 }
