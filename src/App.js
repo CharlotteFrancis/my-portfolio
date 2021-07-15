@@ -67,7 +67,7 @@ const App = () => {
               <Contact />
               <br /><br /><br /><br />
             </Route>
-            <Route exact path='/my-portfolio/about'>
+            <Route exact path='/about'>
               <About />
             </Route>
             <Route path='/portfolio'>
