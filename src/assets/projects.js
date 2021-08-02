@@ -1,6 +1,6 @@
 import ComicCol from './ComiCol.png'
 import CurrencyConverter from './CurrencyConverter.png'
-import TechBlog from './TechBlog.png'
+import PawPal from './pawpal.png'
 
 const projects = [
   {
@@ -20,12 +20,12 @@ const projects = [
     Image: CurrencyConverter
   },
   {
-    Title: 'Tech Blog',
-    Body: 'A blog that allows users to make, comment on, and edit blog posts',
-    repo: 'https://github.com/CharlotteFrancis/TechBlog',
-    link: 'https://infinite-gorge-32125.herokuapp.com/',
+    Title: 'Paw Pal',
+    Body: 'A website that matches users with pets who are up for adoption!',
+    repo: 'https://github.com/CharlotteFrancis/paw-pal',
+    link: 'https://paw-pal-bootcamp.herokuapp.com/',
     width: 900,
-    Image: TechBlog
+    Image: PawPal
   }
 ]
 
