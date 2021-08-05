@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.32b48723.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.1c05c5c4.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.1c05c5c4.chunk.js.map",
+    "main.js": "/my-portfolio/static/js/main.d9b1bc5b.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.d9b1bc5b.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.e7802f44.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.e7802f44.js.map",
     "static/js/2.a178f0ae.chunk.js": "/my-portfolio/static/js/2.a178f0ae.chunk.js",
@@ -15,14 +15,14 @@
     "static/media/CharlotteWong.0f007fff.pdf": "/my-portfolio/static/media/CharlotteWong.0f007fff.pdf",
     "static/media/ComiCol.2ba6ce67.png": "/my-portfolio/static/media/ComiCol.2ba6ce67.png",
     "static/media/CurrencyConverter.cd3d302f.png": "/my-portfolio/static/media/CurrencyConverter.cd3d302f.png",
-    "static/media/TechBlog.084e7477.png": "/my-portfolio/static/media/TechBlog.084e7477.png",
     "static/media/c9c5ba.aa9e79ac.png": "/my-portfolio/static/media/c9c5ba.aa9e79ac.png",
-    "static/media/contact.06e5c1f8.jpg": "/my-portfolio/static/media/contact.06e5c1f8.jpg"
+    "static/media/contact.06e5c1f8.jpg": "/my-portfolio/static/media/contact.06e5c1f8.jpg",
+    "static/media/pawpal.2493a998.png": "/my-portfolio/static/media/pawpal.2493a998.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e7802f44.js",
     "static/js/2.a178f0ae.chunk.js",
     "static/css/main.32b48723.chunk.css",
-    "static/js/main.1c05c5c4.chunk.js"
+    "static/js/main.d9b1bc5b.chunk.js"
   ]
 }
